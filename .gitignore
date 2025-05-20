@@ -1,0 +1,41 @@
+# Python Bytecode Files
+__pycache__/
+*.py[cod]
+
+# Environment Files
+.env
+.env.*
+venv/
+*.venv
+*.virtualenv
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Streamlit Specific
+.streamlit/
+# Prevent Streamlit secrets file from being tracked
+secrets.toml
+
+# Logs, Reports and Cache
+logs/
+*.log
+*.csv
+*.dat
+*.out
+*.cache
+.cache/
+__pycache__/
+/__pycache__/
+
+
+# Docker
+*.dockerfile
+docker-compose.yml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS-Specific (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
